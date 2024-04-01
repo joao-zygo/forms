@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <!-- Início do formulário -->
+    <form action="/processar_dados" method="post">
+        <!-- Campo de texto para nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <!-- Campo de email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+    </form>
+    <!-- Fim do formulário -->
+
+    <!-- Comentário explicativo sobre os elementos do formulário -->
+    <!-- <form>: Inicia um formulário. O atributo action define para onde os dados serão enviados e o method define o método de envio (neste caso, POST). -->
+    <!-- <label>: Rótulo para os campos de entrada. -->
+    <!-- <input>: Elemento de entrada de dados. type define o tipo de entrada (texto, email, senha, etc.), id identifica o elemento, name define o nome do campo (usado no envio do formulário), placeholder fornece um texto de exemplo e required indica que o campo é obrigatório. -->
+    <!-- <input type="submit">: Botão de envio do formulário. -->
+
+    <!-- Respostas às perguntas -->
+    <!-- Como funciona o container form? -->
+    <!-- O container <form> inicia um formulário HTML. O atributo action define para onde os dados serão enviados e o method define o método de envio (neste caso, POST). -->
+
+    <!-- Quais os tipos de input? -->
+    <!-- Existem vários tipos de <input> em HTML, incluindo text, email, password, checkbox, radio, submit, etc. Cada tipo é usado para capturar diferentes tipos de dados do usuário. -->
+
+    <!-- Como funciona o post? -->
+    <!-- O método POST é usado para enviar dados de um formulário para o servidor web. Os dados são enviados no corpo da requisição HTTP de forma mais segura e privada do que o método GET, pois os dados não são mostrados na URL. Isso é útil para enviar informações sensíveis, como senhas. -->
+</body>
+</html>
